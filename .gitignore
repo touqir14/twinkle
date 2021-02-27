@@ -1,3 +1,41 @@
+# ---------------------
+#	  Visual Studio
+# ---------------------
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.dir
+
+.vs
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.db
+*.opendb
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+Win32
+
+#CMake
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+cmake
+
 # Prerequisites
 *.d
 
@@ -30,3 +68,7 @@
 *.exe
 *.out
 *.app
+
+# Dependencies
+
+dependencies
